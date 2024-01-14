@@ -51,29 +51,30 @@ Question 1. Creating & 'console.log()'ing variables \n`);
  * Step 6: Create a variable to hold a street address.
  * ↓ YOUR CODE HERE ↓ */
 
-console.log("Step 1:  Number of Seats on a Plane");
+var seatsRemaining = 19
+console.log("Step 1:  Number of Seats on a Plane", seatsRemaining);
 
+var totalCost = 200
+console.log("Step 2:  Cost of Groceries", totalCost);
 
-console.log("Step 2:  Cost of Groceries");
+var middleInitial = "J"
+console.log("Step 3:  Middle Initial", middleInitial);
 
+var hotOutside = false
+console.log("Step 4:  Is it Hot Outside?", hotOutside);
 
-console.log("Step 3:  Middle Initial");
+var firstName = "Jose"
+console.log("Step 5:  First Name", firstName);
 
-
-console.log("Step 4:  Is it Hot Outside?");
-
-
-console.log("Step 5:  First Name");
-
-
-console.log("Step 6:  Street Address");
+var streetAddress = "1050 Davis Dr"
+console.log("Step 6:  Street Address", streetAddress);
 
 
 /*-------------------------------------------------------*/
 
 console.log(`--------------------------
 Question 2. Creating & 'console.log()'ing variables \n`);
- 
+
 
 /** 
  * Instruction: Use the variables we just created to solve the problems below.
@@ -82,37 +83,46 @@ Question 2. Creating & 'console.log()'ing variables \n`);
  *
  * */
 
-    console.log('Remove Plane Seats:')
+console.log('Remove Plane Seats:')
 //	A customer booked 2 plane seats. Remove 2 seats from the available seats variable
 //  ↓ YOUR CODE HERE ↓
 
+console.log('Seats Remaining', seatsRemaining - 2)
 
-    console.log('Buy a Candy Bar:')
+console.log('Buy a Candy Bar:')
 //	Impulse candy bar purchase! Add 2.15 to the grocery total
 //  ↓ YOUR CODE HERE ↓
 
+console.log('New Grocery Total', totalCost + 2.15)
 
-    console.log('Fix a Birth Certificate:')
+
+
+console.log('Fix a Birth Certificate:')
 //	A birth certificate was printed incorrectly, change the middle initial to something else
 //  ↓ YOUR CODE HERE ↓
 
+console.log('New Middle Inital', middleInitial = 'O')
 
-    console.log('Changing Seasons:')
+
+console.log('Changing Seasons:')
 //	The season has changed, update the hot outside variable	to be opposite of what it was
 //  ↓ YOUR CODE HERE ↓
-    
 
-    console.log('Full Name:')
+console.log('Season Change', hotOutside = true)
+
+
+console.log('Full Name:')
 //	Create a new variable called full name using the customer's
 //  first name, the middle initial, and a last name of your choice
 //  ↓ YOUR CODE HERE ↓
 
+var fullName = firstName + " " + middleInitial + " " + "Jones"
 
-    console.log('Introduce a Customer:')
+console.log('Introduce a Customer:')
 //	Print a line to the console that introduces the customer 
 //	including the name, and saying that they live at the address variable
 //  ↓ YOUR CODE HERE ↓
 
+console.log(fullName + " lives at " + streetAddress)
 
-
-    console.log('-----------Finished------------')
+console.log('-----------Finished------------')
